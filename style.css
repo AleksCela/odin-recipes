@@ -1,0 +1,19 @@
+body{
+    background-color: gray;
+}
+.burger{
+    color: red;
+}
+.lemon{
+    color: yellow;
+}
+.lasagna{
+    color: brown;
+}
+.headBurger{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+li{
+    border-style: double;
+}
