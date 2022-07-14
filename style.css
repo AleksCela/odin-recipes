@@ -4,16 +4,20 @@
 body{
     background-color: gray;
 }
-.burger{
-    color: red;
+.burger :visited{
+    text-decoration: none;
+    color: green;
 }
-.lemon{
-    color: yellow;
+.lemon  :visited{
+    text-decoration: none; 
+    color: #dd7230;
 }
-.lasagna{
-    color: brown;
+.lasagna :visited{
+    text-decoration: none;
+    color: black;
 }
 .headBurger{
+  
     color: blue;
     font-family: 'Times New Roman', Times, serif;
    
@@ -30,4 +34,21 @@ img{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+.container{
+    display: flex;
+    height: 140px;
+    padding: 16px;
+    background-color: #e7e393;
+    border: 4px solid indigo;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container div{
+    padding: 10px;
+    border: 6px;
+    border-style: dotted;
+    border-color: maroon;
+
 }
